@@ -1,0 +1,175 @@
+/*Alert CSS*/
+.test-spread{
+    width:100vw;
+    height:40rem;
+    background:url('https://media1.fdncms.com/eastbayexpress/imager/by-ernest-doty/u/original/4252071/img_20150413_160945.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+    box-shadow: inset 0 0 5rem #000;
+}
+
+/*General CSS*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+
+::-webkit-scrollbar{
+    display:none;
+}
+
+p::first-letter{
+    font-size:4rem;
+}
+
+/*Desktop CSS*/
+body{
+    background:rgb(250, 243, 237);
+    margin:0; padding:0;
+    overflow:hidden;
+}
+
+.overlay{
+    z-index:1;
+    position:absolute;
+}
+
+.overlay-piece-hor{
+    background:rgba(255, 255, 255, 0.1);
+    transition:all 0.25s cubic-bezier(0,0,.15,1);
+    height:100vh;
+    position:fixed;
+    width:3rem;
+    color:white;
+    font-size:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-piece-hor:hover{
+    background:#fff;
+    width:6.5rem;
+    font-size:3.25rem;
+    color:black;
+    transition:all 0.5s cubic-bezier(0,0,.15,1);
+}
+
+.mobile-overlay{
+    position:fixed;
+    bottom:0;
+}
+
+.overlay-piece-ver{
+    background:rgba(255, 255, 255, 0.1);
+    transition:all 0.25s cubic-bezier(0,0,.15,1);
+    height:3rem;
+    width:100vw;
+    color:white;
+    font-size:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-piece-ver:hover{
+    background:#fff;
+    font-size:2.375rem;
+    color:black;
+    transition:all 0.55s cubic-bezier(0,0,.15,1);
+}
+
+.overlay-left{
+    left:0;
+}
+
+.overlay-right{
+    right:0;
+}
+
+.overlay-down{
+    border-top:rgba(255,255,255,0.25) 1px solid;
+    bottom:0;
+}
+
+.outer-container{
+    overflow: hidden;
+}
+
+.main-container{
+    z-index:0;
+    position:absolute;
+    top:0;
+    left:0;
+    transition:1s cubic-bezier(.32,0,.46,1);
+    perspective: 1px;
+}
+
+.box{
+    width:100vw;
+    height:100vh;
+    overflow-y:auto;
+    font-family:'Josefin Sans','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:3rem;
+    font-weight:700;
+}
+
+.box p{
+    padding:60px;
+}
+
+.box1{
+    background:#44d;
+    color:white;
+}
+
+.box2{
+    background:#dd4;
+    position:absolute;
+    left:100vw;
+    top:0vh;
+}
+
+.box3{
+    background:#9df;
+    position:absolute;
+    left:100vw;
+    top:100vh;
+}
+
+.box4{
+    background: #0e1;
+    position:absolute;
+    left:100vw;
+    top:200vh;
+}
+
+.box5{
+    background: #ab0;
+    position:absolute;
+    left:200vw;
+    top:200vh;
+}
+
+.box1, .box2, .box3, .box4, .box5{
+    transition:background-color 0.2s ease-in;
+}
+
+/*Mobile & Tablet CSS*/
+@media screen and (max-width:550px){
+    .overlay-left, .overlay-right{
+        display:none;
+    }
+
+    .mobile-overlay{
+        display: block;
+    }
+}
+
+@media screen and (min-width:550px){
+    .overlay-left, .overlay-right{
+        display:flex;
+    }
+
+    .mobile-overlay{
+        display:none;
+    }
+}
