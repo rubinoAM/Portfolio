@@ -4,6 +4,7 @@ $(document).ready(()=>{
             boxShift('-100vw','0');
             colorShift('.box1','#dd4','#44d');
             resetScroll('.box1',0);
+            unfixImage('.test-spread');
         }
         else if($('.main-container').offset().left == -($(window).width()) && $('.main-container').offset().top == 0){
             boxShift('-100vw','-100vh');
@@ -63,5 +64,12 @@ function colorShift(box,color1,color2){
 function resetScroll(box,y){
     setTimeout(()=>{
         $(box).scrollTop(y);
+    },1000);
+}
+
+function unfixImage(image){
+    $(image).css('background-attachment','local');
+    setTimeout(()=>{
+        $(image).css('background-attachment','fixed')
     },1000);
 }
