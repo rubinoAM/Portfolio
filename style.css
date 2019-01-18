@@ -104,7 +104,6 @@ body{
     top:0;
     left:0;
     transition:1s cubic-bezier(.32,0,.46,1);
-    perspective: 1px;
 }
 
 .box{
@@ -192,9 +191,7 @@ body{
 }
 
 .box1-header{
-    background:url('images/header_image.png');
     background-color:orangered;
-    background-blend-mode: multiply;
     background-size:cover;
     max-height:35rem;
 }
