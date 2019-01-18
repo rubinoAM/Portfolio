@@ -122,6 +122,7 @@ body{
 
 .box p{
     padding:0.75rem 3.75rem;
+    text-indent:5rem;
 }
 
 .box p:first-child{
@@ -241,6 +242,7 @@ body{
 
     .box p{
         text-align:center;
+        text-indent:0;
     }
 
     .box1 .msg-box{
