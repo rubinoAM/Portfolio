@@ -1,3 +1,10 @@
+$('.bootup-btn').click(()=>{
+    $('.bootup').css('opacity','0');
+    setTimeout(()=>{
+        $('.bootup').css('display','none');
+    },500);
+})
+
 function boxShift(left,top){
     $('.main-container').css('left',left);
     $('.main-container').css('top',top);

@@ -5,7 +5,7 @@ $(document).ready(()=>{
             colorShift('.box1','#ffa544','#e44661');
             preventScroll();
             resetScroll('.box1',0);
-            unfixImage('.test-spread');
+            unfixImage('.hor-spread');
         }
         else if($('.main-container').offset().left == -($(window).width()) && $('.main-container').offset().top == 0){
             boxShift('-100vw','-100vh');
