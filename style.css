@@ -31,7 +31,7 @@ ul{
 
 /*Basic Desktop CSS*/
 body{
-    background:rgb(250, 243, 237);
+    background:#faf3ed;
     margin:0; padding:0;
     overflow:hidden;
 }
@@ -42,7 +42,7 @@ body{
 }
 
 .overlay-piece-hor{
-    background:rgba(255, 255, 255, 0.1);
+    background:#ffffff1a;
     transition:all 0.25s cubic-bezier(0,0,.15,1);
     height:100vh;
     position:fixed;
@@ -68,7 +68,7 @@ body{
 }
 
 .overlay-piece-ver{
-    background:rgba(255, 255, 255, 0.1);
+    background:#ffffff1a;
     transition:all 0.25s cubic-bezier(0,0,.15,1);
     height:3rem;
     width:100vw;
@@ -95,7 +95,7 @@ body{
 }
 
 .overlay-down{
-    border-top:rgba(255,255,255,0.25) 1px solid;
+    border-top:#ffffff40 1px solid;
     bottom:0;
 }
 
@@ -207,7 +207,7 @@ body{
 
 .box1 .msg-box{
     background:#faee80;
-    box-shadow:2px 3px 8px rgba(0, 0, 0, 0.5);
+    box-shadow:2px 3px 8px #00000080;
     color:#111;
     margin-top:4rem;
     margin-left:6rem;
