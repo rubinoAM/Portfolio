@@ -1,41 +1,3 @@
-/*COLORS TO USE
-Box 1:
-#e44661;
-#ff7061;
-#b1364b;
-#643d44;
-#fef3f5;
-
-Box 2:
-#ffa544;
-#ffcc38;
-#cc7a37;
-#53483d;
-#333230;
-#fefbf3;
-
-Box 3:
-#878d2e;
-#88a52b;
-#e4cf47;
-#3f3b22;
-#fefdf4;
-
-Box 4:
-#2b594f;
-#398186;
-#77dac5;
-#293331;
-#f7fefc;
-
-Box 5:
-#002d40;
-#0b676a;
-#0099d9;
-#08151a;
-#f7fdff;
-*/
-
 /*Alert CSS*/
 .test-spread{
     width:100vw;
@@ -85,7 +47,7 @@ body{
     height:100vh;
     position:fixed;
     width:3rem;
-    color:white;
+    color:#fff;
     font-size:2rem;
     display: flex;
     justify-content: center;
@@ -110,7 +72,7 @@ body{
     transition:all 0.25s cubic-bezier(0,0,.15,1);
     height:3rem;
     width:100vw;
-    color:white;
+    color:#fff;
     font-size:2rem;
     display: flex;
     justify-content: center;
@@ -168,33 +130,35 @@ body{
 }
 
 .box1{
-    background:#44d;
-    color:white;
+    background:#e44661;
+    color:#fff;
 }
 
 .box2{
-    background:#dd4;
+    background:#ffa544;
     position:absolute;
     left:100vw;
     top:0vh;
 }
 
 .box3{
-    background:#9df;
+    background:#b4bd3e;
     position:absolute;
     left:100vw;
     top:100vh;
 }
 
 .box4{
-    background: #0e1;
+    background: #2b594f;
+    color:#f7fefc;
     position:absolute;
     left:100vw;
     top:200vh;
 }
 
 .box5{
-    background: #ab0;
+    background: #002d40;
+    color:#f7fdff;
     position:absolute;
     left:200vw;
     top:200vh;
