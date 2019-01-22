@@ -225,6 +225,7 @@ body{
 .top-nav{
     display:flex;
     justify-content: space-between;
+    align-items:center;
 }
 
 .title{
@@ -242,6 +243,39 @@ body{
     position:relative;
     bottom:0.5rem;
     left:2rem;
+}
+
+.navigation{
+    margin-right:6rem;
+    margin-top:1rem;
+}
+
+.navigation a{
+    text-decoration:none;
+    font-size:1.875rem;
+    transition:0.2s all ease-out;
+}
+
+a.nav-a-white{
+    color:#fff;
+}
+
+a.nav-a-black{
+    color:#000;
+}
+
+.navigation a:hover{
+    filter:invert(1);
+    cursor:pointer;
+}
+
+.nav-hamburger{
+    transition:0.2s all ease-out;
+    cursor:pointer;    
+}
+
+.nav-hamburger:hover{
+    filter:invert(1);
 }
 
 .header{
@@ -326,6 +360,31 @@ body{
         font-size:9rem;
     }
 }
+
+@media screen and (min-width:1000px){
+    .nav-hamburger{
+        display:none;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .title-head{
+        font-size:2.75rem;
+    }
+
+    .sub-title{
+        font-size:2.25rem;
+    }
+
+    .nav-hamburger{
+        display:flex;
+    }
+    
+    .navigation a{
+        display:none;
+    }
+}
+
 
 @media screen and (max-width:900px){
     .overlay-piece-hor:hover{
