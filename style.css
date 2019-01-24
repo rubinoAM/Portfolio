@@ -74,7 +74,8 @@ ul{
     position:absolute;
     top:100vh;
     transition:0.3s ease-out all;
-    background-color:#fff;
+    background: rgb(99,245,207);
+    background: linear-gradient(180deg, rgba(99,245,207,1) 0%, rgba(82,137,199,1) 50%);
 }
 
 /*Mobile Navigation CSS*/
