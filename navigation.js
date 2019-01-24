@@ -1,5 +1,4 @@
 $('.welcome').click(()=>{
-    //Make square shift up, then fade in page
     $('.transition-box').css('top','0');
     setTimeout(()=>{
         $('.main-container').css('transition','none');
