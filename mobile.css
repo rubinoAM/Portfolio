@@ -113,4 +113,8 @@
     .header{
         box-shadow:inset 0 0 1rem #000;
     }
+
+    .box1 .msg-box{
+        margin:5rem auto 0;
+    }
 }
