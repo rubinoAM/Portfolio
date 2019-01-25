@@ -57,6 +57,11 @@
         margin:0 auto 1.5rem;
         width:80%;
     }
+
+    .footer{
+        background:#e44661;
+        box-shadow: none;
+    }
 }
 
 @media screen and (min-width:550px){ /*Tablet CSS*/
