@@ -324,3 +324,33 @@ a.nav-a-black{
     display:flex;
     justify-content:center;
 }
+
+.what-container{
+    position:relative;
+    top:4rem;
+    margin:0 auto;
+    width:90%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.what-box{
+    padding-top:2rem;
+    width:24%;
+    background-color:#643d44;
+    box-shadow:2px 3px 8px #20202080;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+.what-box-a{
+    transform:rotateZ(-2deg);
+}
+
+.what-box-b{
+    transform:rotateZ(2deg);
+}

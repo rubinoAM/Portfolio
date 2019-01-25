@@ -46,6 +46,16 @@
         width:100%;
         top:20vh;
     }
+
+    .what-container{
+        flex-direction:column;
+        width:100%;
+    }
+
+    .what-box{
+        margin:0 auto 1.5rem;
+        width:80%;
+    }
 }
 
 @media screen and (min-width:550px){ /*Tablet CSS*/
@@ -61,10 +71,6 @@
         font-size:5rem;
         padding-top:1.5rem;
     }
-}
-
-@media screen and (min-width:500px) and (max-width:700px){
-    
 }
 
 @media screen and (min-width:900px){
