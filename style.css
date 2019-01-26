@@ -345,7 +345,6 @@ a.nav-a-black{
     flex-direction:column;
     align-items:center;
     text-align:center;
-    line-height:0.875;
 }
 
 .what-box i{
@@ -360,6 +359,7 @@ a.nav-a-black{
     position:relative;
     bottom:1rem;
     font-size:1.75rem;
+    line-height:0.875;
 }
 
 .what-box-a{

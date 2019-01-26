@@ -58,6 +58,14 @@
         width:80%;
     }
 
+    .what-box-a{
+        transform:rotateZ(-2deg);
+    }
+    
+    .what-box-b{
+        transform:rotateZ(2deg);
+    }
+
     .footer{
         background:#e44661;
         box-shadow: none;
@@ -115,6 +123,16 @@
     }
 }
 
+@media screen and (min-width:550px) and (max-width:900px){
+    .what-container{
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+
+    .what-box{
+        margin-bottom:1rem;
+        width:45%;}
+}
 
 @media screen and (max-width:900px){
     .overlay-piece-hor:hover{
@@ -128,5 +146,33 @@
 
     .box1 .msg-box{
         margin:5rem auto 0;
+    }
+
+    .what-box{
+        line-height:1;
+    }
+
+    .what-box-a{
+        transform:rotateZ(0);
+    }
+    
+    .what-box-b{
+        transform:rotateZ(0);
+    }
+   
+}
+
+@media screen and (max-width:1200px){
+    .what-box i{
+        font-size:2.75rem;
+    }
+
+    .what-box h3{
+        font-size:1.5rem;
+    }
+
+    .what-box span{
+        font-size:1.25rem;
+        line-height:0.5;
     }
 }
