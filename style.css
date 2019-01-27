@@ -185,6 +185,14 @@ body{
     background-position:center;
 }
 
+.box4-spread{
+    background:url('images/freeport_bg.jpg');
+    height:30rem;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+}
+
 .box{
     width:100vw;
     height:100vh;
@@ -387,6 +395,19 @@ a.nav-a-black{
 .footer span{
     font-weight:700;
     font-size:2rem;
+}
+
+/* About */
+.box4 .msg-box{
+    background:#77dac5;
+    box-shadow:2px 3px 8px #29333180;
+    color:#293331;
+    margin:1rem auto 0;
+    max-width:30rem;
+    padding:2rem 0;
+    transform:rotateZ(-1deg);
+    display:flex;
+    justify-content:center;
 }
 
 /* Links */
