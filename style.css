@@ -410,6 +410,7 @@ a.nav-a-black{
     display:flex;
     flex-direction:column;
     text-align:center;
+    box-shadow:2px 3px 8px #08151a80;
 }
 
 .l-col-a{
@@ -423,4 +424,13 @@ a.nav-a-black{
 .links-col h3{
     color:#08151a;
     font-size:2rem;
+}
+
+.links-col a{
+    transition:0.1s ease-out all;
+}
+
+.links-col a:hover{
+    background-color:#0099d9;
+    transition:0.2s ease-out all;
 }
