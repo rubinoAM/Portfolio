@@ -70,6 +70,14 @@
         background:#e44661;
         box-shadow: none;
     }
+
+    .l-col-a{
+        transform:rotateZ(1deg);
+    }
+
+    .l-col-b{
+        transform:rotateZ(-1deg);
+    }
 }
 
 @media screen and (min-width:550px){ /*Tablet CSS*/
@@ -132,6 +140,16 @@
     .what-box{
         margin-bottom:1rem;
         width:45%;}
+
+    .l-col-a{
+        position:relative;
+        right:2rem;
+    }
+    
+    .l-col-b{
+        position:relative;
+        left:2rem;
+    }
 }
 
 @media screen and (max-width:900px){
@@ -159,7 +177,10 @@
     .what-box-b{
         transform:rotateZ(0);
     }
-   
+
+    .links-row{
+        flex-direction:column;
+    }
 }
 
 @media screen and (max-width:1200px){

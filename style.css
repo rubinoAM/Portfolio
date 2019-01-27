@@ -305,9 +305,6 @@ a.nav-a-black{
     text-align:center;
     box-shadow:inset 0 0 2rem #00000080;
     letter-spacing:-0.1rem;
-}
-
-.box1-header{
     background-color:#00000020;
     background-size:cover;
     max-height:35rem;
@@ -373,14 +370,57 @@ a.nav-a-black{
 .footer{
     width:100vw;
     height:5rem;
-    background:#643d44;
-    box-shadow: 0 0 5rem #000 inset;
+    box-shadow: 0 0 2rem #000 inset;
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
+.box1 .footer{
+    background:#643d44;
+}
+
+.box5 .footer{
+    background:#0b676a;
+}
+
 .footer span{
     font-weight:700;
+    font-size:2rem;
+}
+
+/* Links */
+.links-container{
+    margin-top: 3.5rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.links-row{
+    display:flex;
+    flex-direction:row;
+    align-self:center;
+    align-content:center;
+}
+
+.links-col{
+    background-color:#f7fdff;
+    margin:0.5rem;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+.l-col-a{
+    transform:rotateZ(2deg);
+}
+
+.l-col-b{
+    transform:rotateZ(-2deg);
+}
+
+.links-col h3{
+    color:#08151a;
     font-size:2rem;
 }
