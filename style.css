@@ -390,6 +390,10 @@ a.nav-a-black{
 }
 
 /* Links */
+.box5 p{
+    font-size:1.75rem;
+}
+
 .links-container{
     margin-top: 3.5rem;
     display:flex;
