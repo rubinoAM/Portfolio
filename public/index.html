@@ -227,15 +227,14 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
+    <script src="scroll.js"></script>
+    <script src="mobilescroll.js"></script>
     <script>
         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-            $('body').append(`<script src="mobilescroll.js">`);
             $('#bootup-msg-body').html('Greetings! You can navigate through this website using the navigation buttons located at the bottom. A traditional navigation bar is also provided.');
         } else{
             let curDate = new Date();
             $('.copyright').html(`© ${curDate.getFullYear()} Michael Rubino`);
-            $('body').append(`<script src="scroll.js">`);
-            $('body').append(`<script src="mobilescroll.js">`);
             $('#bootup-msg-body').html('Greetings! You can navigate through this website using the left and right arrow keys as well as the navigation buttons on the side. A traditional navigation bar is also provided.');
         }
     </script>
