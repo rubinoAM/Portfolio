@@ -212,7 +212,7 @@
         transform:rotateZ(0);
     }
 
-    .links-row{
+    .links-row, .project-row{
         flex-direction:column;
     }
 }

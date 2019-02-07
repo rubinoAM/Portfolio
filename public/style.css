@@ -203,7 +203,7 @@ body{
 }
 
 .box p{
-    padding:0.75rem 3.75rem;
+    padding:0.75rem 5.75rem;
     text-indent:5rem;
 }
 
@@ -410,6 +410,59 @@ a.nav-a-black{
 .footer span{
     font-weight:700;
     font-size:2rem;
+}
+
+/* Work */
+.projects-container{
+    margin-top: 3.5rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.project-row{
+    display:flex;
+    flex-direction:row;
+    align-self:center;
+    align-content:center;
+}
+
+.project-col{
+    background-color:#f7fdff;
+    margin:0.5rem;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    box-shadow:2px 3px 8px #08151a80;
+}
+
+.p-col-a{
+    transform:rotateZ(2deg);
+}
+
+.p-col-b{
+    transform:rotateZ(-2deg);
+}
+
+.project-col h3{
+    color:#08151a;
+    font-size:2rem;
+}
+
+.project-col a{
+    transition:0.1s ease-out all;
+}
+
+.project-col a:hover{
+    background-color:#ffcc38;
+    transition:0.2s ease-out all;
+}
+
+.project-col span{
+    font-size:1.25rem;
+    width:18rem;
+    margin-left:0.25rem;
+    margin-bottom:2rem;
 }
 
 /* About */
