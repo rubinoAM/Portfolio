@@ -231,7 +231,7 @@ body{
 }
 
 .box4{
-    background:#2b594f;
+    background:#13ac8b;
     color:#f7fefc;
     position:absolute;
     left:100vw;
@@ -239,7 +239,7 @@ body{
 }
 
 .box5{
-    background:#002d40;
+    background:#4c18ad;
     color:#f7fdff;
     position:absolute;
     left:200vw;
@@ -467,7 +467,7 @@ a.nav-a-black{
 
 /* About */
 .box4 .msg-box{
-    background:#77dac5;
+    background:#9efce7;
     box-shadow:2px 3px 8px #29333180;
     color:#293331;
     margin:1rem auto 0;
@@ -524,6 +524,6 @@ a.nav-a-black{
 }
 
 .links-col a:hover{
-    background-color:#0099d9;
+    background-color:#8143e4;
     transition:0.2s ease-out all;
 }
