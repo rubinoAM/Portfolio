@@ -4,7 +4,11 @@
 <script src="mobilescroll.js"></script>
 <script>
     let curDate = new Date();
-    $('.copyright').html(`© ${curDate.getFullYear()} Michael Rubino`);
+    let curYear = curDate.getFullYear();
+    let birthYear = 1991;
+
+    $('#aboutAge').html(curYear - birthYear);
+    $('.copyright').html(`© ${curYear} Michael Rubino`);
     
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
         $('#bootup-msg-body').html('Greetings! You can navigate through this website using the navigation buttons located at the bottom. A traditional navigation bar is also provided.');
