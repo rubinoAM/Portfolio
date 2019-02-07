@@ -382,14 +382,29 @@ a.nav-a-black{
     display:flex;
     justify-content:center;
     align-items:center;
+    text-align:center;
 }
 
 .box1 .footer{
     background:#643d44;
 }
 
+.box2 .footer{
+    background:#53483d;
+    color:#fff;
+}
+
+.box3 .footer{
+    background:#3f3b22;
+    color:#fff;
+}
+
+.box4 .footer{
+    background:#293331;
+}
+
 .box5 .footer{
-    background:#0b676a;
+    background:#08151a;
 }
 
 .footer span{

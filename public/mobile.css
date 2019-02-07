@@ -1,4 +1,29 @@
 /*Mobile & Tablet CSS*/
+@media screen and (min-width:320px) and (max-width:375px){
+    .bootup-msg{
+        top:7vh;
+    }
+
+    .header{
+        font-size:2.875rem;
+    }
+
+    .box1 .msg-box, .box4 .msg-box{
+        font-size:1.75rem;
+        max-width:16rem;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:550px){
+    .bootup-msg{
+        top:15vh;
+    }
+
+    .header{
+        font-size:4rem;
+    }
+}
+
 @media screen and (max-width:550px){ /*Mobile CSS*/
     .overlay-left, .overlay-right{
         display:none;
@@ -19,13 +44,13 @@
     }
 
     .header{
-        font-size:4rem;
         padding-top:1rem;
     }
 
     .box p{
         text-align:center;
         text-indent:0;
+        font-size:1.75rem;
     }
 
     .box1 .msg-box, .box4 .msg-box{
@@ -50,7 +75,6 @@
 
     .bootup-msg{
         width:100%;
-        top:20vh;
     }
 
     .what-container{
@@ -84,6 +108,10 @@
     .l-col-b{
         transform:rotateZ(-1deg);
     }
+
+    .box1-spread{
+        height:28vh;
+    }
 }
 
 @media screen and (min-width:550px){ /*Tablet CSS*/
@@ -116,11 +144,11 @@
 
 @media screen and (max-width:1000px){
     .title-head{
-        font-size:2.75rem;
+        font-size:2.5rem;
     }
 
     .sub-title{
-        font-size:2.25rem;
+        font-size:2rem;
         bottom:0.25rem;
     }
 
