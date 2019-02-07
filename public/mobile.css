@@ -101,11 +101,11 @@
         padding-bottom:5.5rem;
     }
 
-    .l-col-a{
+    .l-col-a, .p-col-a{
         transform:rotateZ(1deg);
     }
 
-    .l-col-b{
+    .l-col-b, .p-col-b{
         transform:rotateZ(-1deg);
     }
 
@@ -175,12 +175,12 @@
         margin-bottom:1rem;
         width:45%;}
 
-    .l-col-a{
+    .l-col-a, .p-col-a{
         position:relative;
         right:2rem;
     }
     
-    .l-col-b{
+    .l-col-b, .p-col-b{
         position:relative;
         left:2rem;
     }
