@@ -484,11 +484,15 @@ a.nav-a-black{
     background-color:#ffed76;
     color:#3f3b22;
     box-shadow:2px 3px 8px rgba(32, 32, 32, 0.502);
-    padding:2rem 1rem 1rem;
     margin:0 1rem;
     display:flex;
     flex-direction:column;
+    height:25rem;
+}
+
+.r-col-short{
     align-items:center;
+    padding:2rem 1rem 1rem;
 }
 
 .resume-name{
@@ -514,7 +518,7 @@ a.nav-a-black{
     margin-top:0.25rem;
     transition:0.2s ease-out all;
     text-shadow:1px 1px 1px #3f3b22;
-    animation:jiggle 0.5s linear;
+    animation:jiggle 0.5s linear infinite;
     animation-play-state:paused;
 }
 
@@ -523,11 +527,45 @@ a.nav-a-black{
     animation-play-state:running;
 }
 
+.soft-skills{
+    display:flex;
+    flex-direction:column;
+}
+
+.soft-skills li{
+    font-size:1.75rem;
+    margin:0.25rem 0;
+}
+
 @keyframes jiggle{
     0%{transform:rotate(0deg)}
     33%{transform:rotate(5deg)}
     66%{transform:rotate(-5deg)}
     100%{transform:rotate(0deg)}
+}
+
+.resume-col .r-col-short{
+    align-items:center;
+}
+
+.resume-col .r-col-wide{
+    align-items:flex-start;
+}
+
+.r-col-wide h1{
+    font-size:2.625rem;
+}
+
+.box3 .msg-box{
+    background:#3f3b22;
+    color:#fefdf4;
+    box-shadow:2px 3px 8px rgba(41, 51, 49, 0.502);
+    margin:1rem 1rem 0;
+    max-width:20rem;
+    padding:2rem 0;
+    transform:rotateZ(-1deg);
+    display:flex;
+    justify-content:center;
 }
 
 /* About */
