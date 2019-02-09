@@ -501,6 +501,18 @@ a.nav-a-black{
     font-size:1.75rem;
 }
 
+.r-row-3{
+    margin-top:2rem;
+}
+
+.r-row-4{
+    margin:2rem 0;
+}
+
+.r-row-3 .resume-col{
+    width:100%;
+}
+
 .resume-name{
     font-weight:700;
     margin-top:1.5rem;
@@ -576,6 +588,37 @@ a.nav-a-black{
     transform:rotateZ(-1deg);
     display:flex;
     justify-content:center;
+}
+
+.education-entry{
+    margin:0 auto;
+    padding:1rem;
+    border-bottom:1px solid #3f3b22;
+    width:90%;
+}
+
+.education-entry:nth-child(2){
+    margin:1rem auto 0;
+}
+
+.education-entry:last-child{
+    border-bottom:none;
+}
+
+.education-entry h3{
+    font-size:2.25rem;
+    margin:0;
+}
+
+.education-entry h4{
+    font-size:1.75rem;
+    font-weight:400;
+    margin:0;
+}
+
+.education-entry span{
+    font-size:1.5rem;
+    margin:0;
 }
 
 /* About */
