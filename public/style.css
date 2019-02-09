@@ -489,6 +489,18 @@ a.nav-a-black{
     flex-direction:column;
 }
 
+.r-row-1{
+    margin-bottom:2rem;
+}
+
+.r-row-2 .resume-col{
+    width:50%;
+}
+
+.r2-msg-box-1{
+    font-size:1.75rem;
+}
+
 .resume-name{
     font-weight:700;
     margin-top:1.5rem;
@@ -521,13 +533,13 @@ a.nav-a-black{
     animation-play-state:running;
 }
 
-.soft-skills{
+.soft-skills, .dev-skills, .soft-ware{
     display:flex;
     flex-direction:column;
     list-style-type:disc;
 }
 
-.soft-skills li{
+.soft-skills li, .dev-skills li, .soft-ware li{
     font-size:1.75rem;
     margin:0.25rem 0;
 }
