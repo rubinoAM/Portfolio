@@ -10,12 +10,30 @@ let mobileToggled = false;
 $('.nav-hamburger').click(()=>{
     if(mobileToggled == false){
         $('.mobile-nav').css('display','flex');
+        setTimeout(()=>{
+            $('.mobile-nav').css('opacity','100');
+        },100);
         mobileToggled = true;
     }
     else{
-        $('.mobile-nav').css('display','none');
+        $('.mobile-nav').css('opacity','0');
+        setTimeout(()=>{
+            $('.mobile-nav').css('display','none');
+        },200);
         mobileToggled = false;
     }
+});
+
+$('.mobile-link').click(()=>{
+    $('.mobile-nav').css('transition','none');
+    $('.mobile-nav').css('opacity','0');
+    $('.mobile-nav').css('display','flex');
+    if(mobileToggled == true){
+        mobileToggled = false;
+    }
+    setTimeout(()=>{
+        $('.mobile-nav').css('transition','0.2s ease-out opacity');
+    },500);
 });
 
 function boxShift(left,top){
