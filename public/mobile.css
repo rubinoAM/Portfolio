@@ -141,6 +141,10 @@
     .education-entry span, .employment-entry span{
         font-size:0.875rem;
     }
+
+    .mobile-nav{
+        top:12rem;
+    }
 }
 
 @media screen and (min-width:550px){ /*Tablet CSS*/
@@ -255,6 +259,16 @@
     .education-entry span, .employment-entry span{
         font-size:1.125rem;
     }
+
+    .mobile-nav{
+        top:8rem;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1000px){
+    .mobile-nav{
+        top:8rem;
+    }
 }
 
 @media screen and (max-width:900px){
@@ -295,6 +309,12 @@
 
     .soft-skills li, .dev-skills li, .soft-ware li{
         font-size:1.25rem;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .mobile-nav{
+        top:-25rem;
     }
 }
 

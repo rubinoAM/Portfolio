@@ -36,6 +36,30 @@ $('.mobile-link').click(()=>{
     },500);
 });
 
+document.addEventListener('keydown',(e)=>{
+    if(e.code == "ArrowRight"){
+        $('.mobile-nav').css('transition','none');
+        $('.mobile-nav').css('opacity','0');
+        $('.mobile-nav').css('display','flex');
+        if(mobileToggled == true){
+            mobileToggled = false;
+        }
+        setTimeout(()=>{
+            $('.mobile-nav').css('transition','0.2s ease-out opacity');
+        },500);
+    } else if(e.code == "ArrowLeft"){
+        $('.mobile-nav').css('transition','none');
+        $('.mobile-nav').css('opacity','0');
+        $('.mobile-nav').css('display','flex');
+        if(mobileToggled == true){
+            mobileToggled = false;
+        }
+        setTimeout(()=>{
+            $('.mobile-nav').css('transition','0.2s ease-out opacity');
+        },500);
+    }
+});
+
 function boxShift(left,top){
     $('.main-container').css('left',left);
     $('.main-container').css('top',top);
@@ -68,4 +92,9 @@ function preventScroll(){
     setTimeout(()=>{
         $('.box').css('overflow-y','auto');
     },999);
+}
+
+function mobileNav(bgColor,textColor){
+    $('.mobile-nav').css('background-color',bgColor);
+    $('.mobile-link').css('color',textColor);
 }

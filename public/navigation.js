@@ -9,6 +9,7 @@ $('.welcome').click(()=>{
             $('.transition-box').css('top','100vh');
         },200);
     },300);
+    mobileNav('#e44661','#fff');
 });
 
 $('.work').click(()=>{
@@ -22,6 +23,7 @@ $('.work').click(()=>{
             $('.transition-box').css('top','100vh');
         },200);
     },300);
+    mobileNav('#ffa544','#08151a');
 });
 
 $('.resume').click(()=>{
@@ -35,6 +37,7 @@ $('.resume').click(()=>{
             $('.transition-box').css('top','100vh');
         },200);
     },300);
+    mobileNav('#b4bd3e','#08151a');
 });
 
 $('.about').click(()=>{
@@ -48,6 +51,7 @@ $('.about').click(()=>{
             $('.transition-box').css('top','100vh');
         },200);
     },300);
+    mobileNav('#13ac8b','#f7fefc');
 });
 
 $('.links').click(()=>{
@@ -61,4 +65,5 @@ $('.links').click(()=>{
             $('.transition-box').css('top','100vh');
         },200);
     },300);
+    mobileNav('#4c18ad','#f7fdff');
 });

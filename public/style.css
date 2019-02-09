@@ -81,8 +81,7 @@ ul{
 /*Mobile Navigation CSS*/
 .mobile-nav{
     position:absolute;
-    top:12rem;
-    z-index:2;
+    z-index:1;
     display:none;
     flex-direction:column;
     align-items:center;
@@ -90,14 +89,19 @@ ul{
     background-color:#e44661;
     opacity:0;
     transition:0.2s ease-out opacity;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.502);
 }
 
-.mobile-nav a{
+.mobile-link{
     font-family:'Josefin Sans', sans-serif;
     font-size:2.5rem;
     font-weight:400;
     color:#fff;
     padding:0.5rem 0;
+}
+
+.mobile-link:hover{
+    cursor:pointer;
 }
 
 /*Basic Desktop CSS*/
@@ -108,7 +112,7 @@ body{
 }
 
 .overlay{
-    z-index:1;
+    z-index:2;
     position:absolute;
 }
 
