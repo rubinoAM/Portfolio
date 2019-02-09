@@ -5,6 +5,19 @@ $('.bootup-btn').click(()=>{
     },500);
 })
 
+let mobileToggled = false;
+
+$('.nav-hamburger').click(()=>{
+    if(mobileToggled == false){
+        $('.mobile-nav').css('display','flex');
+        mobileToggled = true;
+    }
+    else{
+        $('.mobile-nav').css('display','none');
+        mobileToggled = false;
+    }
+});
+
 function boxShift(left,top){
     $('.main-container').css('left',left);
     $('.main-container').css('top',top);
