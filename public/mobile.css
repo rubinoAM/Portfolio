@@ -57,7 +57,7 @@
         margin:4rem auto 0;
     }
 
-    .r1-msg-box, .r2-msg-box-2{
+    .r1-msg-box, .r2-msg-box-2, .r3-msg-box, .r4-msg-box{
         font-size:1.75rem;
     }
 
@@ -127,6 +127,20 @@
     .soft-toggle{
         display:none;
     }
+
+    .education-entry h3, .employment-entry h3{
+        font-size:1.375rem;
+        margin-bottom:0.5rem;
+    }
+    
+    .education-entry h4, .employment-entry h4{
+        font-size:1.125rem;
+        margin-bottom:0.5rem;
+    }
+    
+    .education-entry span, .employment-entry span{
+        font-size:0.875rem;
+    }
 }
 
 @media screen and (min-width:550px){ /*Tablet CSS*/
@@ -151,12 +165,19 @@
     }
 
     .r-row-2 .resume-col{
-        width:70%;
+        width:85%;
+    }
+
+    .r-row-2 .resume-col:first-child{
         margin-bottom:2rem;
     }
 
+    .r-row-3 .resume-col, .r-row-4 .resume-col{
+        width:85%;
+    }
+
     .r-col-wide{
-        width:70%;
+        width:85%;
         margin-top:2rem;
     }
 }
@@ -219,6 +240,20 @@
     .l-col-b, .p-col-b{
         position:relative;
         left:2rem;
+    }
+
+    .education-entry h3, .employment-entry h3{
+        font-size:1.75rem;
+        margin-bottom:0.25rem;
+    }
+    
+    .education-entry h4, .employment-entry h4{
+        font-size:1.5rem;
+        margin-bottom:0.25rem;
+    }
+    
+    .education-entry span, .employment-entry span{
+        font-size:1.125rem;
     }
 }
 
