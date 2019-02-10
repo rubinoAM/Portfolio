@@ -196,7 +196,7 @@ body{
 }
 
 .box1-spread{
-    background:url('images/code_bg.jpg');
+    background:url('../images/code_bg.jpg');
     height:30rem;
     background-size:cover;
     background-attachment:fixed;
@@ -204,7 +204,7 @@ body{
 }
 
 .box4-spread{
-    background:url('images/about_bg.jpg');
+    background:url('../images/about_bg.jpg');
     height:30rem;
     background-size:cover;
     background-attachment:fixed;
