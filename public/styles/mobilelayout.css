@@ -1,0 +1,19 @@
+@media screen and (max-width:550px){
+    .box3{
+        position:absolute;
+        left:200vw;
+        top:0;
+    }
+    
+    .box4{
+        position:absolute;
+        left:300vw;
+        top:0;
+    }
+    
+    .box5{
+        position:absolute;
+        left:400vw;
+        top:0;
+    }    
+}
