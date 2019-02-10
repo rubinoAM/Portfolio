@@ -17,7 +17,7 @@ ul{
 /*Alert CSS*/
 .bootup{
     font-family:'Josefin Sans',sans-serif;
-    z-index:2;
+    z-index:3;
     position:absolute;
     top:0;
     left:0;
@@ -27,7 +27,7 @@ ul{
     justify-content:center;
     height:100vh;
     width:100vw;
-    background:#000000D0;
+    background:rgba(0, 0, 0, 0.816);
 }
 
 .bootup-msg{
@@ -117,7 +117,7 @@ body{
 }
 
 .overlay-piece-hor{
-    background:#ffffff1a;
+    background:rgba(255, 255, 255, 0.102);
     transition:all 0.25s cubic-bezier(0,0,.15,1);
     height:100vh;
     position:fixed;
@@ -143,7 +143,7 @@ body{
 }
 
 .overlay-piece-ver{
-    background:#ffffff1a;
+    background:rgba(255, 255, 255, 0.102);
     transition:all 0.25s cubic-bezier(0,0,.15,1);
     height:3rem;
     width:100vw;
@@ -170,7 +170,7 @@ body{
 }
 
 .overlay-down{
-    border-top:#ffffff40 1px solid;
+    border-top:rgba(255, 255, 255, 0.251) 1px solid;
     bottom:0;
 }
 
@@ -451,7 +451,7 @@ a.nav-a-black{
     display:flex;
     flex-direction:column;
     text-align:center;
-    box-shadow:2px 3px 8px #08151a80;
+    box-shadow:2px 3px 8px rgba(8, 21, 26, 0.502);
 }
 
 .p-col-a{
@@ -677,7 +677,7 @@ a.nav-a-black{
     display:flex;
     flex-direction:column;
     text-align:center;
-    box-shadow:2px 3px 8px #08151a80;
+    box-shadow:2px 3px 8px rgba(8, 21, 26, 0.502);
 }
 
 .project-col a img{

@@ -16,4 +16,12 @@
         left:400vw;
         top:0;
     }    
+
+    .overlay-piece-hor:hover{
+        background:rgba(255, 255, 255, 0.102);
+        width:3rem;
+        font-size:2rem;
+        color:#fff;
+        transition:none;
+    }
 }
