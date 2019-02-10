@@ -51,6 +51,7 @@
         text-align:center;
         text-indent:0;
         font-size:1.75rem;
+        padding:0.75rem 2rem;
     }
 
     .box1 .msg-box, .box3 .msg-box, .box4 .msg-box{

@@ -1,6 +1,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="/scripts/main.js"></script>
 <script id="scrollScript"></script>
+<script id="scrollScriptTwo"></script>
 <script>
     let curDate = new Date();
     let curYear = curDate.getFullYear();
@@ -12,18 +13,22 @@
     if($(window).width() <= 550){
         $('#bootup-msg-body').html('Greetings! You can navigate through this website using the navigation buttons located at the bottom. A traditional navigation bar is also provided.');
         document.getElementById('scrollScript').src = '/scripts/mobilescroll.js';
+        document.getElementById('scrollScriptTwo').src = '/scripts/mobilenav.js';
     } else{
         $('#bootup-msg-body').html('Greetings! You can navigate through this website using the left and right arrow keys as well as the navigation buttons on the side. A traditional navigation bar is also provided.');
         document.getElementById('scrollScript').src = '/scripts/scroll.js';
+        document.getElementById('scrollScriptTwo').src = '/scripts/navigation.js';
     }
 
     $(window).resize(()=>{
         if($(window).width() <= 550){
-        $('#bootup-msg-body').html('Greetings! You can navigate through this website using the navigation buttons located at the bottom. A traditional navigation bar is also provided.');
-        document.getElementById('scrollScript').src = '/scripts/mobilescroll.js';
+            $('#bootup-msg-body').html('Greetings! You can navigate through this website using the navigation buttons located at the bottom. A traditional navigation bar is also provided.');
+            document.getElementById('scrollScript').src = '/scripts/mobilescroll.js';
+            document.getElementById('scrollScriptTwo').src = '/scripts/mobilenav.js';
         } else{
             $('#bootup-msg-body').html('Greetings! You can navigate through this website using the left and right arrow keys as well as the navigation buttons on the side. A traditional navigation bar is also provided.');
             document.getElementById('scrollScript').src = '/scripts/scroll.js';
+            document.getElementById('scrollScriptTwo').src = '/scripts/navigation.js';
         }
     });
 </script>

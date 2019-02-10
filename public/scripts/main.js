@@ -98,3 +98,8 @@ function mobileNav(bgColor,textColor){
     $('.mobile-nav').css('background-color',bgColor);
     $('.mobile-link').css('color',textColor);
 }
+
+$(window).resize(()=>{
+    boxShift("0","0");
+    mobileNav('#e44661','#fff');
+})
