@@ -99,7 +99,9 @@ function mobileNav(bgColor,textColor){
     $('.mobile-link').css('color',textColor);
 }
 
-$(window).resize(()=>{
-    boxShift("0","0");
-    mobileNav('#e44661','#fff');
-})
+if($(window).width()>550){
+    $(window).resize(()=>{
+        boxShift("0","0");
+        mobileNav('#e44661','#fff');
+    })
+}
