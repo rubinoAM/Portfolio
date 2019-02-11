@@ -1,10 +1,3 @@
-const boxOne = document.querySelector('.box1');
-const boxTwo = document.querySelector('.box2');
-const boxThree = document.querySelector('.box3');
-const boxFour = document.querySelector('.box4');
-const boxFive = document.querySelector('.box5');
-let boxArray = [boxOne,boxTwo,boxThree,boxFour,boxFive];
-
 $('.welcome').click(()=>{
     $('.transition-box').css('display','block');
     setTimeout(()=>{

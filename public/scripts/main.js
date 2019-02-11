@@ -103,9 +103,29 @@ function mobileNav(bgColor,textColor){
     $('.mobile-link').css('color',textColor);
 }
 
+const boxOne = document.querySelector('.box1');
+const boxTwo = document.querySelector('.box2');
+const boxThree = document.querySelector('.box3');
+const boxFour = document.querySelector('.box4');
+const boxFive = document.querySelector('.box5');
+let boxArray = [boxOne,boxTwo,boxThree,boxFour,boxFive];
+
 $(window).resize(()=>{
     if($(window).width()>550){
         boxShift("0","0");
         mobileNav('#e44661','#fff');
+        for(let i=0;i<boxArray.length;i++){
+            $(boxArray[i]).css('display','block');
+            if($(boxArray[i]).hasClass('active-box')){
+                $(boxArray[i]).removeClass('active-box');
+            }
+        }
+    } else {
+        boxShift("0","0");
+        mobileNav('#e44661','#fff');
+        for(let i=1;i<boxArray.length;i++){
+            $(boxArray[i]).css('display','none');
+        }
+        $(boxOne).addClass('active-box');
     }
 });

@@ -7,10 +7,12 @@ $(document).ready(()=>{
                 setTimeout(()=>{
                     $('.box1').removeClass('active-box');
                     $('.box1').css('display','none');
-                },100);
+                },255);
             }, 50);
             setTimeout(()=>{
                 setTimeout(()=>{
+                    $('.box2').addClass('active-box');
+                    $('.box2').css('display','block');
                     $('.transition-box').css('top','100vh');
                 },250);
             },350);
@@ -22,10 +24,12 @@ $(document).ready(()=>{
                 setTimeout(()=>{
                     $('.box2').removeClass('active-box');
                     $('.box2').css('display','none');
-                },100);
+                },255);
             }, 50);
             setTimeout(()=>{
                 setTimeout(()=>{
+                    $('.box3').addClass('active-box');
+                    $('.box3').css('display','block');
                     $('.transition-box').css('top','100vh');
                 },250);
             },350);
@@ -37,10 +41,12 @@ $(document).ready(()=>{
                 setTimeout(()=>{
                     $('.box3').removeClass('active-box');
                     $('.box3').css('display','none');
-                },100);
+                },255);
             }, 50);
             setTimeout(()=>{
                 setTimeout(()=>{
+                    $('.box4').addClass('active-box');
+                    $('.box4').css('display','block');
                     $('.transition-box').css('top','100vh');
                 },250);
             },350);
@@ -52,10 +58,12 @@ $(document).ready(()=>{
                 setTimeout(()=>{
                     $('.box4').removeClass('active-box');
                     $('.box4').css('display','none');
-                },100);
+                },255);
             }, 50);
             setTimeout(()=>{
                 setTimeout(()=>{
+                    $('.box5').addClass('active-box');
+                    $('.box5').css('display','block');
                     $('.transition-box').css('top','100vh');
                 },250);
             },350);
@@ -71,10 +79,12 @@ $(document).ready(()=>{
                 setTimeout(()=>{
                     $('.box2').removeClass('active-box');
                     $('.box2').css('display','none');
-                },100);
+                },255);
             }, 50);
             setTimeout(()=>{
                 setTimeout(()=>{
+                    $('.box1').addClass('active-box');
+                    $('.box1').css('display','block');
                     $('.transition-box').css('top','100vh');
                 },250);
             },350);
@@ -86,10 +96,12 @@ $(document).ready(()=>{
                 setTimeout(()=>{
                     $('.box3').removeClass('active-box');
                     $('.box3').css('display','none');
-                },100);
+                },255);
             }, 50);
             setTimeout(()=>{
                 setTimeout(()=>{
+                    $('.box2').addClass('active-box');
+                    $('.box2').css('display','block');
                     $('.transition-box').css('top','100vh');
                 },250);
             },350);
@@ -101,10 +113,12 @@ $(document).ready(()=>{
                 setTimeout(()=>{
                     $('.box4').removeClass('active-box');
                     $('.box4').css('display','none');
-                },100);
+                },255);
             }, 50);
             setTimeout(()=>{
                 setTimeout(()=>{
+                    $('.box3').addClass('active-box');
+                    $('.box3').css('display','block');
                     $('.transition-box').css('top','100vh');
                 },250);
             },350);
@@ -116,10 +130,12 @@ $(document).ready(()=>{
                 setTimeout(()=>{
                     $('.box5').removeClass('active-box');
                     $('.box5').css('display','none');
-                },100);
+                },255);
             }, 50);
             setTimeout(()=>{
                 setTimeout(()=>{
+                    $('.box4').addClass('active-box');
+                    $('.box4').css('display','block');
                     $('.transition-box').css('top','100vh');
                 },250);
             },350);
