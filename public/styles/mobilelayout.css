@@ -1,25 +1,35 @@
 @media screen and (max-width:550px){
-    html{
-        overflow:hidden;
+    .box2{
+        display:none;
+        position:absolute;
+        left:0;
+        top:0;
     }
 
     .box3{
+        display:none;
         position:absolute;
-        left:200vw;
+        left:0;
         top:0;
     }
     
     .box4{
+        display:none;
         position:absolute;
-        left:300vw;
+        left:0;
         top:0;
     }
     
     .box5{
+        display:none;
         position:absolute;
-        left:400vw;
+        left:0;
         top:0;
     }    
+
+    .transition-box{
+        display:none;
+    }
 
     .overlay-piece-hor:hover{
         background:rgba(255, 255, 255, 0.102);

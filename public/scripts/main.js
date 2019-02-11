@@ -1,9 +1,6 @@
-const outerContainer = document.querySelector('.outer-container');
-if($(window).width()<550){
-    bodyScrollLock.disableBodyScroll(outerContainer);
-} else {
-    bodyScrollLock.enableBodyScroll(outerContainer);
-}
+$(document).ready(()=>{
+    $('.box1').addClass('active-box');
+});
 
 $('.bootup-btn').click(()=>{
     $('.bootup').css('opacity','0');
