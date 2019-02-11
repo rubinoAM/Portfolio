@@ -17,6 +17,9 @@ $('.welcome').click(()=>{
         setTimeout(()=>{
             $('.transition-box').css('top','100vh');
         },250);
+        setTimeout(()=>{
+            $('.transition-box').css('display','none');
+        },350);
     },350);
     mobileNav('#e44661','#fff');
 });
@@ -40,6 +43,9 @@ $('.work').click(()=>{
         setTimeout(()=>{
             $('.transition-box').css('top','100vh');
         },250);
+        setTimeout(()=>{
+            $('.transition-box').css('display','none');
+        },350);
     },350);
     mobileNav('#ffa544','#08151a');
 });
@@ -63,6 +69,9 @@ $('.resume').click(()=>{
         setTimeout(()=>{
             $('.transition-box').css('top','100vh');
         },250);
+        setTimeout(()=>{
+            $('.transition-box').css('display','none');
+        },350);
     },350);
     mobileNav('#b4bd3e','#08151a');
 });
@@ -86,6 +95,9 @@ $('.about').click(()=>{
         setTimeout(()=>{
             $('.transition-box').css('top','100vh');
         },250);
+        setTimeout(()=>{
+            $('.transition-box').css('display','none');
+        },350);
     },350);
     mobileNav('#13ac8b','#f7fefc');
 });
@@ -109,6 +121,9 @@ $('.links').click(()=>{
         setTimeout(()=>{
             $('.transition-box').css('top','100vh');
         },250);
+        setTimeout(()=>{
+            $('.transition-box').css('display','none');
+        },350);
     },350);
     mobileNav('#4c18ad','#f7fdff');
 });
