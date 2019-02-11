@@ -11,12 +11,12 @@ $('.welcome').click(()=>{
         $('.transition-box').css('top','0');
         setTimeout(()=>{
             for(let i=0;i<boxArray.length;i++){
-                if(boxArray[i].hasClass('active-box')){
-                    boxArray[i].css('display','none');
-                    boxArray[i].removeClass('active-box');
+                if($(boxArray[i]).hasClass('active-box')){
+                    $(boxArray[i]).css('display','none');
+                    $(boxArray[i]).removeClass('active-box');
                 }
             }
-        },100);
+        },255);
     }, 50);
     setTimeout(()=>{
         $('.box1').addClass('active-box');
@@ -34,14 +34,15 @@ $('.work').click(()=>{
         $('.transition-box').css('top','0');
         setTimeout(()=>{
             for(let i=0;i<boxArray.length;i++){
-                if(boxArray[i].hasClass('active-box')){
-                    boxArray[i].css('display','none');
-                    boxArray[i].removeClass('active-box');
+                if($(boxArray[i]).hasClass('active-box')){
+                    $(boxArray[i]).css('display','none');
+                    $(boxArray[i]).removeClass('active-box');
                 }
             }
-        },100);
+        },255);
     }, 50);
     setTimeout(()=>{
+        $('.box2').addClass('active-box');
         $('.box2').css('display','block');
         setTimeout(()=>{
             $('.transition-box').css('top','100vh');
@@ -56,14 +57,15 @@ $('.resume').click(()=>{
         $('.transition-box').css('top','0');
         setTimeout(()=>{
             for(let i=0;i<boxArray.length;i++){
-                if(boxArray[i].hasClass('active-box')){
-                    boxArray[i].css('display','none');
-                    boxArray[i].removeClass('active-box');
+                if($(boxArray[i]).hasClass('active-box')){
+                    $(boxArray[i]).css('display','none');
+                    $(boxArray[i]).removeClass('active-box');
                 }
             }
-        },100);
+        },255);
     }, 50);
     setTimeout(()=>{
+        $('.box3').addClass('active-box');
         $('.box3').css('display','block');
         setTimeout(()=>{
             $('.transition-box').css('top','100vh');
@@ -78,14 +80,15 @@ $('.about').click(()=>{
         $('.transition-box').css('top','0');
         setTimeout(()=>{
             for(let i=0;i<boxArray.length;i++){
-                if(boxArray[i].hasClass('active-box')){
-                    boxArray[i].css('display','none');
-                    boxArray[i].removeClass('active-box');
+                if($(boxArray[i]).hasClass('active-box')){
+                    $(boxArray[i]).css('display','none');
+                    $(boxArray[i]).removeClass('active-box');
                 }
             }
-        },100);
+        },255);
     }, 50);
     setTimeout(()=>{
+        $('.box4').addClass('active-box');
         $('.box4').css('display','block');
         setTimeout(()=>{
             $('.transition-box').css('top','100vh');
@@ -100,14 +103,15 @@ $('.links').click(()=>{
         $('.transition-box').css('top','0');
         setTimeout(()=>{
             for(let i=0;i<boxArray.length;i++){
-                if(boxArray[i].hasClass('active-box')){
-                    boxArray[i].css('display','none');
-                    boxArray[i].removeClass('active-box');
+                if($(boxArray[i]).hasClass('active-box')){
+                    $(boxArray[i]).css('display','none');
+                    $(boxArray[i]).removeClass('active-box');
                 }
             }
-        },100);
+        },255);
     }, 50);
     setTimeout(()=>{
+        $('.box5').addClass('active-box');
         $('.box5').css('display','block');
         setTimeout(()=>{
             $('.transition-box').css('top','100vh');
