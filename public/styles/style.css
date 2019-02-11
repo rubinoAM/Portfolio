@@ -74,8 +74,8 @@ ul{
     position:absolute;
     top:100vh;
     transition:0.3s ease-out all;
-    background: rgb(99,245,207);
-    background: linear-gradient(180deg, rgba(99,245,207,1) 0%, rgba(82,137,199,1) 50%);
+    background:rgb(99,245,207);
+    background:linear-gradient(180deg, rgba(99,245,207,1) 0%, rgba(82,137,199,1) 50%);
 }
 
 /*Mobile Navigation CSS*/
@@ -89,7 +89,7 @@ ul{
     background-color:#e44661;
     opacity:0;
     transition:0.2s ease-out opacity;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.502);
+    box-shadow:0 4px 4px rgba(0, 0, 0, 0.502);
 }
 
 .mobile-link{
@@ -396,7 +396,7 @@ a.nav-a-black{
 .footer{
     width:100vw;
     height:5rem;
-    box-shadow: 0 0 2rem #000 inset;
+    box-shadow:0 0 2rem #000 inset;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -432,7 +432,7 @@ a.nav-a-black{
 
 /* Work */
 .projects-container{
-    margin-top: 3.5rem;
+    margin-top:3.5rem;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -658,7 +658,7 @@ a.nav-a-black{
 }
 
 .links-container{
-    margin-top: 3.5rem;
+    margin-top:3.5rem;
     display:flex;
     flex-direction:column;
     justify-content:center;
