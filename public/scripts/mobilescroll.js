@@ -1,6 +1,7 @@
 $(document).ready(()=>{
     $('#go-down').click(()=>{
         if($('.box1').hasClass('active')){
+            console.log("BARK");
             $('.transition-box').css('display','block');
             setTimeout(()=>{
                 $('.transition-box').css('top','0');
@@ -16,6 +17,7 @@ $(document).ready(()=>{
             },350);
             mobileNav('#ffa544','#08151a');
         } else if($('.box2').hasClass('active')){
+            console.log("BARK");
             $('.transition-box').css('display','block');
             setTimeout(()=>{
                 $('.transition-box').css('top','0');
@@ -31,6 +33,7 @@ $(document).ready(()=>{
             },350);
             mobileNav('#b4bd3e','#08151a');
         } else if($('.box3').hasClass('active')){
+            console.log("BARK");
             $('.transition-box').css('display','block');
             setTimeout(()=>{
                 $('.transition-box').css('top','0');
@@ -46,6 +49,7 @@ $(document).ready(()=>{
             },350);
             mobileNav('#13ac8b','#f7fefc');
         } else if($('.box4').hasClass('active')){
+            console.log("BARK");
             $('.transition-box').css('display','block');
             setTimeout(()=>{
                 $('.transition-box').css('top','0');
@@ -65,6 +69,7 @@ $(document).ready(()=>{
 
     $('#go-up').click(()=>{
         if($('.box2').hasClass('active')){
+            console.log("BARK");
             $('.transition-box').css('display','block');
             setTimeout(()=>{
                 $('.transition-box').css('top','0');
@@ -80,6 +85,7 @@ $(document).ready(()=>{
             },350);
             mobileNav('#e44661','#fff');
         } else if($('.box3').hasClass('active')){
+            console.log("BARK");
             $('.transition-box').css('display','block');
             setTimeout(()=>{
                 $('.transition-box').css('top','0');
@@ -95,6 +101,7 @@ $(document).ready(()=>{
             },350);
             mobileNav('#ffa544','#08151a');
         } else if($('.box4').hasClass('active')){
+            console.log("BARK");
             $('.transition-box').css('display','block');
             setTimeout(()=>{
                 $('.transition-box').css('top','0');
@@ -110,6 +117,7 @@ $(document).ready(()=>{
             },350);
             mobileNav('#b4bd3e','#08151a');
         } else if($('.box5').hasClass('active')){
+            console.log("BARK");
             $('.transition-box').css('display','block');
             setTimeout(()=>{
                 $('.transition-box').css('top','0');
