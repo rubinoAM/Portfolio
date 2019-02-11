@@ -1,4 +1,8 @@
 @media screen and (max-width:550px){
+    html{
+        overflow:hidden;
+    }
+
     .box3{
         position:absolute;
         left:200vw;
