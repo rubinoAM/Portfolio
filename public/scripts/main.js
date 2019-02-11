@@ -1,7 +1,8 @@
+const outerContainer = document.querySelector('.outer-container');
 if($(window).width()<550){
-    bodyScrollLock.disableBodyScroll($('.outer-container'));
+    bodyScrollLock.disableBodyScroll(outerContainer);
 } else {
-    bodyScrollLock.enableBodyScroll($('.outer-container'));
+    bodyScrollLock.enableBodyScroll(outerContainer);
 }
 
 $('.bootup-btn').click(()=>{
@@ -105,9 +106,9 @@ function mobileNav(bgColor,textColor){
     $('.mobile-link').css('color',textColor);
 }
 
-if($(window).width()>550){
-    $(window).resize(()=>{
+$(window).resize(()=>{
+    if($(window).width()>550){
         boxShift("0","0");
         mobileNav('#e44661','#fff');
-    })
-}
+    }
+});
