@@ -1,11 +1,7 @@
-const bodyScrollLock = require('body-scroll-lock');
-const disableBodyScroll = bodyScrollLock.disableBodyScroll;
-const enableBodyScroll = bodyScrollLock.enableBodyScroll;
-
 if($(window).width()<550){
-    disableBodyScroll(document.body);
+    bodyScrollLock.disableBodyScroll($('.outer-container'));
 } else {
-    enableBodyScroll(document.body);
+    bodyScrollLock.enableBodyScroll($('.outer-container'));
 }
 
 $('.bootup-btn').click(()=>{
