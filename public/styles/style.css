@@ -467,20 +467,31 @@ a.nav-a-black{
     font-size:2rem;
 }
 
-.project-col a{
+.project-col .demo-link{
     transition:0.1s ease-out all;
 }
 
-.project-col a:hover{
+.project-col .demo-link:hover{
     background-color:#ffcc38;
     transition:0.2s ease-out all;
 }
 
-.project-col span{
+.project-col .p-tech{
     font-size:1.25rem;
     width:18rem;
-    margin-left:0.25rem;
-    margin-bottom:2rem;
+    margin:1rem 0.25rem 2rem 0;
+}
+
+.project-col .git-link{
+    color:#08151a;
+    text-decoration:none;
+    font-size:1.5rem;
+    transition:0.1s ease-out all;
+}
+
+.project-col .git-link:hover{
+    color:#ffa544;
+    transition:0.2s ease-out all;
 }
 
 /* Resume */
